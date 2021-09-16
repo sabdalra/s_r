@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style type="text/css">
+
+	@font-face {
+	  font-family: font_created_future_bold;
+	  src: url("https://res.cloudinary.com/research-capital/raw/upload/v1631623263/mp700_kod_persTest/Futura_Condensed_Extra_Bold_e8w4hm.otf");
+	}
+	.class_open_button {
+		background-color: white;
+		font-size: 80px;
+		color: red;
+		font-family: font_created_future_bold;
+	}
+	h1 {
+		font-size: 80px;
+		font-family: font_created_future_bold;
+	}
+	h2 {
+		font-size: 60px;
+		font-family: font_created_future_bold;
+	}
+	h3 {
+		font-size: 40px;
+		font-family: font_created_future_bold;
+	}
+	#id_image_bg_1 {
+		background-image: url("https://res.cloudinary.com/research-capital/image/upload/v1631623040/mp700_kod_persTest/bg_mbti_ogewsq.png");
+	}
+	#id_image_bg_2 {
+		background-image: url("https://res.cloudinary.com/research-capital/image/upload/v1631623044/mp700_kod_persTest/bg_math_vvhqof.jpg");
+	}
+	#id_image_bg_3 {
+
+	}
+	.class_div_container_of_testing_group_2 {
+		width: 100%;
+		background-color: rgba(255, 99, 71, 0.5);
+	}
+	.class_open_button {
+		font-family: font_created_future_bold;
+		background-color: rgba(255, 255, 255, 0);
+		border-color: rgba(255, 99, 71, 0);
+
+	}
+	.class_div_container_of_open_button {
+		background-color: rgba(255, 255, 255, 0.5);
+		width: 100%;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+</style>
+
+<script type="text/javascript">
+	function func_select_testing_group(temp_index_of_testing_group){
+		alert(temp_index_of_testing_group);
+		console.log(temp_index_of_testing_group);
+	}
+</script>
+</head>
+<body>
+<h1>Options</h1>
+	<div class="class_div_container_of_testing_group_1" id="id_image_bg_1">
+		<div class="class_div_container_of_testing_group_2">
+			<h2>Personality</h2>
+			<h3>&emsp;-&emsp;MBTI Test</h3>
+			<h3>&emsp;-&emsp;Identity Test</h3>
+			<div class="class_div_container_of_open_button">
+				<button class="class_open_button" onclick="func_select_testing_group(1)">Open</button>
+			</div>
+		</div>
+	</div>
+	<div class="class_div_container_of_testing_group_1" id="id_image_bg_2">
+		<div class="class_div_container_of_testing_group_2">
+			<h2>Mathematics</h2>
+			<h3>&emsp;-&emsp;Analytical</h3>
+			<h3>&emsp;-&emsp;Spatial</h3>
+			<h3>&emsp;-&emsp;Computational</h3>
+			<div class="class_div_container_of_open_button">
+				<button class="class_open_button" onclick="func_select_testing_group(2)">Open</button>
+			</div>
+		</div>
+	</div>
+	<div class="class_div_container_of_testing_group_1" id="id_image_bg_3">
+		<div class="class_div_container_of_testing_group_2">
+			<h2>Logic</h2>
+			<div class="class_div_container_of_open_button">
+				<button class="class_open_button" onclick="func_select_testing_group(3)">Open</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
